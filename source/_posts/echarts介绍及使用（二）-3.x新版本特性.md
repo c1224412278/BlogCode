@@ -78,3 +78,13 @@ chart.setOption({
 });
 </script>
 ```
+
+update 2016-12-27
+4、dataZoom提供了很多新功能接口：
+- zoomLock：可以锁定dataZoom所选择区域
+- type：分为`slider`和`inside`两种，其中`slider`是2.x版本中的组件，而`inside`则是将组件内嵌到图表中，可以通过鼠标滚轮来切换dataZoom区间的大小。
+- startValue&endValue：接受“绝对数值”的形式定义了数据窗口范围，如果轴的类型为 category，则 startValue 既可以设置为 axis.data 数组的 index，也可以设置为数组值本身。
+
+5、很多图标提供了定制化的选项：
+- 可以通过`'image://url'`设置为图片，其中 url 为图片的链接；
+- 可以通过`'path://'`将图标设置为任意的矢量路径（`SVG PathData`图标绘制）。这种方式相比于使用图片的方式，不用担心因为缩放而产生锯齿或模糊，而且可以设置为任意颜色。路径图形会自适应调整为合适（如果是`symbol`的话就是`symbolSize`）的大小。
