@@ -89,3 +89,5 @@ exports.getCensoredWords = getCensoredWords;
 
 5、在文件夹下创建一个名为README.md的文件，在这个文件中可以写一些说明。
 6、在控制台导航到你创建的文件夹中，然后执行`npm pack`命令建立一个本地封装模块。
+
+update 2016-12-29 继续学习
