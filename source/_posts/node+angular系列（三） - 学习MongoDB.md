@@ -12,6 +12,25 @@ categories: 前端MVC
 　　实现思路：跟随书籍《Node.js+MongoDb+AngularJS Web开发》学习。
 # 实现
 
+## MongoDB安装
+
+1、下载：[官网](https://www.mongodb.com/)，目前官网最新版本3.4.1，下载一个msi文件。
+2、选择Custom（自定义）安装，修改路径install即可（安装路径不能有中文）。
+3、在根目录中新建"data\db"文件夹用来存放数据库文件，新建"data\log"文件夹用来存放日志文件。
+4、在根目录中新建"mongod.cfg"用来存放配置项，其中的内容有
+```
+systemLog:
+    destination: file
+    path: F:\MongoDB-3.2\data\log\mongodb.log
+storage:
+    dbPath: F:\MongoDB-3.2\data\db
+```
+其中`path`表示的是日志存放地址，`dbPath`表示的存放的数据库的文件目录
+5、启动MongoDB数据库，通过命令行在"bin"文件夹下使用以下命令`mongod.exe --config ..\mongod.cfg`来启动数据库。
+6、在浏览器中访问地址：`http://localhost:27017/`如果页面提示：It looks like you are trying to access MongoDB over HTTP on the native driver port. 则表示你的MongoDB数据库启动正常。
+
+附：可以使用[robomongo](robomongo.org)界面化管理工具来便捷的管理数据库
+
 ## 各种命令介绍
 - `show users`：列出用户（`db,system.users.find()`）；
 - `show dbs`：显示数据库清单
