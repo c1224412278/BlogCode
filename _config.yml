@@ -7,13 +7,13 @@ title: A sanctuary for KID
 subtitle: personal blog by sqk
 description: Good good study, Day day up!
 author: Kid the Phantom Thief
-email: sqk1808466879@163.com
+email: sqk_55@163.com
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://github.com/lfy55
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

@@ -138,7 +138,7 @@ function getCard(num) {
 ```
 &nbsp;&nbsp;以上实现了一个简单的Fate/Grand Order（命运冠位指定）游戏的抽卡模拟，现在应用包含`剧情（ALL）`和`玉藻前（HALLOWEEN）`两个卡池（ps：不保证以后的卡池更新）。
 
-[点此抽卡](https://lfy55.github.io/stowaway.html)
+[点此抽卡](https://lfy55.github.io/myStatic/stowaway.html)
 
 **存在的问题：**
 

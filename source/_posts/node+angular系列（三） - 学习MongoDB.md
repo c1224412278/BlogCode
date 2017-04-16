@@ -1,5 +1,5 @@
 ---
-title: node+angular系列（三） - 学习MongoDB.md
+title: node+angular系列（三） - 学习MongoDB
 date: 2017-1-3
 tags: [node,angular,Javascript,mongo]
 categories: 前端MVC
