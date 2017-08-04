@@ -51,3 +51,41 @@ function dedupe(array) {
 - forEach(): 使用回调函数遍历每个成员
 
 > ps: 或者直接使用for...of遍历Set
+
+# MAP
+  类似于对象的'键值对'存贮方式，但是对象提供的是"字符串-值"，Map的键则可以是各种类型的值（包括对象），键名不能重复（类似于`===`判断方式，对象必须是内存地址不相同）
+
+## 构造方法：
+  var map = new Map();
+	可以接受一个数组进行构造，数组的成员是两项表示键值对的数组
+  ```
+  const map = new Map([
+  ['name', '张三'],
+  ['title', 'Author']
+]);
+  ```
+
+## 实例的属性：
+	size:实例的成员数
+
+## 实例的数据结构：
+```
+{
+	size: 2,
+	[[Entries]]: [{"a"=>1},{"b"=>2}],
+	__proto__:{}
+}
+```
+
+## 实例的操作方法：
+	set(key,value): 设置当前实例key对应的值为value，返回设置后的set实例（新建或者更新键）
+	get(key): 读取当前实例key的值，如果找不到key则返回undefined
+	has(key): 判断当前实例是否存在key，返回布尔值表示查找结果
+	delete(key): 删除当前实例key，返回布尔值表示删除结果
+	clear(): 清空当前实例，没有返回值，当前实例变为一个空Map对象
+	
+## 实例的遍历方法：
+	keys(): 返回键名的遍历器
+	values(): 返回键值的遍历器
+	entries(): 返回键值对(作为数组存在，可以直接使用[key,value]进行解构)的遍历器，map[Symbol.iterator] === map.entries
+	forEach(): 使用回调函数遍历每个成员
