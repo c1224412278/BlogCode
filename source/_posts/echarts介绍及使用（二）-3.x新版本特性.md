@@ -1,7 +1,7 @@
 ---
 title: echarts介绍及使用（二）-3.x新版本特性
 date: 2016-12-26
-tags: [D3]
+tags: [echarts]
 categories: 可视化
 ---
 > 秋风萧瑟 洪波涌起
