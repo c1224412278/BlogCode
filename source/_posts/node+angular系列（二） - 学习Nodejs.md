@@ -10,6 +10,8 @@ categories: 前端MVC
 # 说明
 　　目标：学习node的使用
 　　实现思路：跟随书籍《Node.js+MongoDb+AngularJS Web开发》学习。
+
+<!-- more -->
 # 实现
 Node版本：v4.5.0
 

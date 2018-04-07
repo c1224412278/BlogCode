@@ -14,6 +14,8 @@ categories: other
 ```
 https://github.com/ecomfe/echarts
 ```
+
+<!-- more -->
 ***
 # 同类对比
 &nbsp;&nbsp;我所了解的可视化图表工具主要有三个`echarts`,`highcharts`,`D3`。他们都能对数据进行可视化操作，但是他们三者又各有不同，三者关系如下：

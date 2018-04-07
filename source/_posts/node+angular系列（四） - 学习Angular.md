@@ -8,9 +8,10 @@ categories: 前端MVC
 
 ***
 # 说明
-　　目标：学习node的使用
+　　目标：学习Angular相关内容
 　　实现思路：跟随书籍《Node.js+MongoDb+AngularJS Web开发》学习。
-	学习Angular相关内容
+
+  <!-- more -->
 # 实现
 Node版本：v4.5.0
 Angular版本：v1.2.32

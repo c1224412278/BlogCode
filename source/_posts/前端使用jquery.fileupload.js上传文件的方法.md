@@ -9,6 +9,8 @@ categories: 前端
 ***
 # 说明
 　　最近需要在前端做一个可以批量上传文件的功能，决定使用[jquery.fileupload.js](https://github.com/blueimp/jQuery-File-Upload)插件来实现相关功能。
+
+<!-- more -->
 # 普通上传
 　　通过[官方github](https://github.com/blueimp/jQuery-File-Upload)和[参考博客](http://www.cnblogs.com/mafeifan/p/3291562.html)，得出一个最普通的文件上传网页。
   首先，通过git clone的文件结构如图：

@@ -10,6 +10,8 @@ categories: css
 ***
 # 说明
 　　使用css实现radio的横向纵向布局菜单单选以及inline-block样式引起的空白解决方案
+
+<!-- more -->
 # 做法
 
 ## 横向

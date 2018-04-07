@@ -7,7 +7,7 @@ categories: js
 > 纸上得来终觉浅，绝知此事要躬行
 
 # 跨域相关内容
-
+<!-- more -->
 ## JSONP方式
 
 `jsonp`方式是一种`hack`模拟`script`标签的方式，具体使用方式如下：

@@ -23,6 +23,7 @@ $({value: 0}).animate({value: 180}, {
 
 我研究了一下通过这种方法可以控制一个元素在一段时间内的动画，甚至在一段时间内多个不同元素同时进行动画，并且保证多个元素的动画都是同步的。
 
+<!-- more -->
 # 做法
 首先我做了一个测试，代码如下:
 <p data-height="265" data-theme-id="0" data-slug-hash="WRoWdG" data-default-tab="result" data-user="KIDlfy" data-embed-version="2" data-pen-title="WRoWdG" class="codepen">See the Pen <a href="https://codepen.io/KIDlfy/pen/WRoWdG/">WRoWdG</a> by KID (<a href="http://codepen.io/KIDlfy">@KIDlfy</a>) on <a href="http://codepen.io">CodePen</a>.</p>

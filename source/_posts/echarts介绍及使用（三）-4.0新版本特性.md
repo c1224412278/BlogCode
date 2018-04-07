@@ -8,9 +8,11 @@ categories: 可视化
 
 ***
 # 说明
-&emsp;&emsp;时隔一年[ECharts](https://echarts.baidu.com)更新了4.0版本，在我第三天写这篇日志时有迅速放出了4.0.1,4.0.2，也是emmmmmmm。
+&emsp;&emsp;时隔一年[ECharts](https://echarts.baidu.com)更新了4.0版本，在我第三天写这篇日志时又迅速放出了4.0.1,4.0.2，也是emmmmmmm。
 
 &emsp;&emsp;也是前段时间年底忙于各种事情，已经快一个月没敲代码了，手都不会打字，以后争取再忙都要敲代码，废话不多说了，看一下echarts的4.0。
+
+<!-- more -->
 # 更新内容
 我从echarts官网http://echarts.baidu.com/changelog.html#v4-0-0 截了一张图，看一下4.0究竟干了些什么：
 

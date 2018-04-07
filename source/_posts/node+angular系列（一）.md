@@ -10,6 +10,8 @@ categories: 前端MVC
 # 说明
 　　目标：学习node和angular的使用，理解前端mvc的含义
 　　实现思路：跟随书籍《Node.js+MongoDb+AngularJS Web开发》学习。
+
+<!-- more -->
 # 实现
 ## 为什么是node
 > node.js是一个基于谷歌的V8 JavaScript引擎，并执行该引擎的开发框架。

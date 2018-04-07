@@ -8,6 +8,7 @@ categories: js
 
 # 初始化一个electron项目
 
+<!-- more -->
 ## 使用electron-vue构建
 
 ```
